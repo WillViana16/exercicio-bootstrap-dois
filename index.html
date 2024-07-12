@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vapor - Sua loja digital de jogos</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Vapor <span class="h3">- Sua loja digital de jogos </span></h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="navbar-collapse justify-content-end collapse show" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#alta" class="nav-link">Em alta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#promo" class="nav-link">Promoções</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="carousel-imagens" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <h1 id="alta">Em alta</h1>
+                <div data-bs-interval="4000" class="carousel-item active">
+                    <img class="d-block w-100" src="/img/dragon-dogma.jpg" alt="">
+                </div>
+    
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="/img/Elden-ring.jpg" alt="">
+                </div>
+
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="/img/dmc.jpg" alt="">
+                </div>
+
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="/img/gbf.jpg" alt="">
+                </div>
+
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="/img/hogwarts.jpg" alt="">
+                </div>
+    
+                <button data-bs-target="#carousel-imagens" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+    
+                <button data-bs-target="#carousel-imagens" data-bs-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+    
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-imagens" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="4"></button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-cards">
+        <h1 id="promo">Promoções</h1>
+        <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <article class="card text-bg-dark">
+                        <img src="/img/resident.jpg" alt="Resident Evil 4">
+                        <div class="card-body">
+                            <h4 class="card-title">Resident Evil 4</h4>
+                            <br>
+                            <p class="card-text">
+                                <strong>R$99,99</strong>
+                            </p>
+                            <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <article class="card text-bg-dark">
+                        <img src="/img/rise.jpg" alt="Monster Hunter Rise">
+                        <div class="card-body">
+                            <h4 class="card-title">Monster Hunter Rise</h4>
+                            <p class="card-text">
+                                <strong>R$79,99</strong>
+                            </p>
+                            <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <article class="card text-bg-dark">
+                        <img src="/img/street.jpg" alt="Street Fighter 5">
+                        <div class="card-body">
+                            <h4 class="card-title">Street Fighter 5</h4>
+                            <br>
+                            <p class="card-text">
+                                <strong>R$49,99</strong>
+                            </p>
+                            <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <article class="card text-bg-dark">
+                        <img src="/img/mhw.jpg" alt="Monster Hunter World">
+                        <div class="card-body">
+                            <h4 class="card-title">Monster Hunter World</h4>
+                            <br>
+                            <p class="card-text">
+                                <strong>R$39,99</strong>
+                            </p>
+                            <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </article>
+                </div>
+        </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
